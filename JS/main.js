@@ -68,8 +68,7 @@ function changeback() {
         changeBac = setInterval(() => {
             let random = Math.floor(Math.random() * arr.length)
             landing.style.backgroundImage = `url(./img/${arr[random]})`
-            console.log(arr[random])
-        }, 10000);
+}, 10000);
     }
 }
 
